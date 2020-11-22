@@ -1,0 +1,107 @@
+.box-home{
+    width: 100vw;
+    height: 100vh;
+    background-color: #9A5555;   
+}
+
+.main-content-box {
+    width: 1200px;
+    height:660px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+      
+         
+}
+
+
+
+.content-log .logo img {
+    position: absolute;
+    width: 15.2em;
+    left: 3.1em;
+    top: 5.9em;
+    margin: 1em;
+
+}
+
+.content-title h1{
+    position: absolute;
+    width: 276px;
+    height: 171px;
+    left: 336px;
+    top: 1.3em;
+    font-family: 'Henny Penny', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9.6em;
+    color: white;
+}
+
+.content-text h3{
+    position: absolute;
+    width: 364px;
+    margin: 1em;
+    left: 336px;
+    top: 11.5em;
+    font-family: 'Finger Paint', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.person-img img{
+    position: absolute;
+    left: 752px;
+    bottom: 4.9em;
+    margin: 2em;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.btn button {
+    position: absolute;
+    width: 98px;
+    height: 72px;
+    left: 1050px;
+    top: 563px;
+    background: #F76F6F;
+    border-radius: 25px;
+    border: none;
+}
+
+.btn button mat-icon{
+    font-family: 'Material Icons';
+    position: absolute;
+   
+    font-size: 4em;
+    bottom: 0.7em;   
+    right: 0.8em;
+    
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block; 
+           
+    color: #FFFFFF;
+}
+
+.btn button:hover {
+    position: absolute;
+    width: 302px;
+    height: 72px;
+    left: 1050px;
+    top: 563px;
+    background: #FF8C8C;
+    border-radius: 25px;
+    border: none;
+    transition: 0.5s;
+}
+
+
+
+
+@media (min-width: 117)
+
