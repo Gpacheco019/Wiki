@@ -9,11 +9,20 @@ export class HomeComponent implements OnInit {
   
 
   over(){
-    document.getElementById('surviver').innerHTML = "Sobreviva";
+    
+    console.log('over')
+      var d = document.getElementById('surviver');
+
+      d.innerHTML =  "sobreviva" + "<span class='material-icons'> double_arrow </span>"
+  
   }
 
   out(){
-    console.log("teste");
+    console.log('out')
+            var d = document.getElementById('surviver');
+
+            d.innerHTML =  " " + "<span class='material-icons'> double_arrow </span>"
+        
   }
 
   constructor() { }
