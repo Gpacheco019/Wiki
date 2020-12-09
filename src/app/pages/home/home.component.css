@@ -15,7 +15,8 @@
 
 
 
-.content-log .logo img {
+.logo img {
+    max-width: 100%;
     position: absolute;
     width: 15.2em;
     left: 3.1em;
@@ -85,23 +86,5 @@
            
     color: #FFFFFF;
 }
-
-.btn button:hover {
-    position: absolute;
-    width: 302px;
-    height: 72px;
-    left: 1050px;
-    top: 563px;
-    background: #FF8C8C;
-    border-radius: 25px;
-    border: none;
-    transition: 0.5s;
-    font-family: 'Finger Paint', cursive;
-    font-style: normal;
-    font-weight: normal;
-    color: #FFFFFF;
-}
-
-
 
 

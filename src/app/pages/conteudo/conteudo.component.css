@@ -1,0 +1,45 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E4BEBE;
+    border: 0px;
+    padding: 0px;
+   
+}
+
+main.content-box {
+    position: relative;
+    background-color: #F4EFEF;
+
+    width: 100%;
+    max-width: 60rem;    
+    margin:0 auto;
+    top: 8rem;
+    border-radius: 0.9rem;
+    
+}
+
+.content-title {   
+
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    
+}
+
+.content-title h1 {
+
+    font-family: Finger Paint;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4.4rem;
+    line-height: 3.8rem;   
+    
+}
+
+.content-title h1 img {
+    width: 100%;
+   
+}
+

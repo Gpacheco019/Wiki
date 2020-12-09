@@ -1,3 +1,4 @@
+import { style } from '@angular/animations';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -13,7 +14,8 @@ export class HomeComponent implements OnInit {
     console.log('over')
       var d = document.getElementById('surviver');
 
-      d.innerHTML =  "sobreviva" + "<span class='material-icons'> double_arrow </span>"
+      
+      d.innerHTML =   "sobreviva" + "<span class='material-icons'> double_arrow </span>"
   
   }
 
