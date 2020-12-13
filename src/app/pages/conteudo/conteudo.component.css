@@ -1,4 +1,4 @@
-.container {
+/* .container {
     width: 100vw;
     height: 100vh;
     background-color: #E4BEBE;
@@ -43,3 +43,38 @@ main.content-box {
    
 }
 
+ */
+
+ .container-fluid {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E4BEBE;
+    border: 0px;
+    padding: 0px;
+   
+}
+
+.mid {
+    background-color: #F4EFEF;
+    border-radius: 15px;
+}
+
+.descrip {
+    font-family: Finger Paint;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 88px;
+
+    
+}
+
+.bgzin {
+    background-color: #EEE4E4;
+    border-radius: 8px;   
+    
+}
+
+tr {
+    margin: 5px;
+}
