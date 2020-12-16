@@ -78,3 +78,11 @@ main.content-box {
 tr {
     margin: 5px;
 }
+
+p {
+    font-family: Finger Paint;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 45px;
+    line-height: 20px;
+}
