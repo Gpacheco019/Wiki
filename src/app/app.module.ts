@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
+import { MatBadgeModule } from '@angular/material/badge';
 import { HomeComponent } from './pages/home/home.component';
 import { ConteudoComponent } from './pages/conteudo/conteudo.component';
 
@@ -20,6 +21,7 @@ import { ConteudoComponent } from './pages/conteudo/conteudo.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatIconModule,
+    MatBadgeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
